@@ -16,5 +16,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: geraldocoosta/goserver-helloworld
+          repository: ${{ secrets.DOCKER_USERNAME }}/goserver-helloworld
           tags: ${{ github.sha }}, latest
