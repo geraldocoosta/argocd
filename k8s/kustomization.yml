@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: geraldocoosta/goserver-helloworld
-  newTag: f038287df9a3a90a3c0f77102d956a95c05c7701
+  newTag: 0ddc550321d3d957fdec51c9e6abe2b184251d00
